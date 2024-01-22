@@ -1,0 +1,111 @@
+body{
+    background-color: aliceblue;
+}
+.logo{
+    height: 75px;
+    padding: 5px;
+}
+header{
+  background-color: rgba(193, 212, 202, 0.788);
+  height: 100px;
+background-size: contain;
+position: relative;
+}
+.nvv{
+    padding: 50px;
+    font-family: 'Lucida Sans';
+
+
+}
+.navegacion{
+    padding-left: 25px;
+}
+.marq{
+    font-family: 'Lucida Sans';
+    background-color: rgba(193, 212, 202, 0.788);
+}
+nav {
+    padding: 10px;
+    margin: -10px;
+}
+nav ul {
+    list-style: none;
+    padding: 1px;
+    margin: 2px;
+}
+nav li {
+    display: inline;
+    margin: 2px;
+    color: black;
+    padding: 25px;
+    font-size: 15px;
+    top: -40px;
+    position: relative;
+    left: 640px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav a {
+    text-decoration: solid;
+    color: black;
+    font-size: 100%;
+}
+nav li:hover{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prod{
+   height: 100px;
+   padding: 50px;
+   margin-inline: 100px;
+}
+marquee{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mm{
+    background-color: rgb(231, 252, 245);
+}
+.formulario {
+    width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+.vid{
+    padding: 50px;
+}
