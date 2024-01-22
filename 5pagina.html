@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <header>
+        <div class="interior">
+            <nav>
+                <ul>
+                    <a href=""><img src="c:\Users\alexander\OneDrive\Imágenes\proyecto jordan\air-jordan-logo-png-transparent.png" width="100px" style="position: relative; left: 10px; top: -10px; width: 80px;"></a>
+                    <li><a href="proyecto.html">Inicio</a></li>
+                    <li><a href="2pagina.html">Nosotros</a></li>
+                    <li><a href="3pagina.html">Productos</a></li>
+                    <li><a href="4pagina.html">Ofertas</a></li>
+                    <li><a href="5pagina.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="formulario">
+        <h1>Formulario</h1>
+        <form action="#">
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="">Seleccione</option>
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <button type="submit">Aceptar o confirmar</button>
+        </form>
+    </section>
+</body>
+</html>
